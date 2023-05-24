@@ -1,0 +1,67 @@
+<html>
+
+
+<head>
+<!-- StAuth10244: I Tristan Smith, 000825589 
+ certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my 
+ work available to anyone else.-->
+
+  <title>Parks and Conservation Centers !</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script src="./index.js"></script>
+</head>
+
+<body>
+
+  <!-- This is creating a container  -->
+  <!--we do this with bootstrap that will help us place the google map on one side and the buttons on the other -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-`12">
+        <h1 id="title">Trails and Conservation Centers in Hamilton</h1>
+      </div>
+      <div class="col-3">
+        <hr>
+        <button id="remove">Remove All Markers</button>
+        <button id="add">Add All Markers</button>
+        <button id="current_location">Show Current Location</button>
+        <hr>
+        <input type="text" name="address" id="address" placeholder="Enter new address">
+        <input type="button" value="Add new address" id="addAddress">
+        <hr>
+        <br>
+        <h3>Get the directions from one park to another</h3>
+        <p>From</p>
+        <select id="origin" name="ddl" onmousedown="this.value='';">
+          <option value='Choose origin'>Choose origin</option>
+        </select>
+        <p>to</p>
+        <select id="destinations" name="ddl" onmousedown="this.value='';">
+          <option value='Choose destination'>Choose destination</option>
+        </select>
+        <hr>
+
+      </div>
+      <div class="col-9">
+        <div id="map"></div>.
+      </div>
+
+
+    </div>
+  </div>
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpDmZh3kmnuBcx4uRUX3qKnQXgEHM_3Zc&callback=initMap&v=weekly"
+    defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
+</html>

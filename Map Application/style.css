@@ -1,0 +1,91 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ StAuth10244: I Tristan Smith, 000825589 
+ certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my 
+ work available to anyone else.
+ */
+body {
+  background-color: papayawhip;
+  text-align: center;
+}
+
+#map {
+  height: 90vh;
+  width: 100%;
+}
+
+#Current_Location {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(141, 71, 255);
+  border: 1px solid rgb(51, 153, 97);
+}
+#remove {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: tomato;
+  border: 1px solid rebeccapurple;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+  border: 1px solid rebeccapurple;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: rgb(92, 0, 128);
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: steelblue;
+  border: 1px solid rebeccapurple;
+}
+
+#origin {
+  width: 90%;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  color: rgb(92, 0, 128);
+  border: 1px solid rebeccapurple;
+}
+
+#destinations {
+  width: 90%;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  color: rgb(92, 0, 128);
+  border: 1px solid rebeccapurple;
+
+}
+
+hr {
+  border: 6px solid rebeccapurple;
+  border-radius: 5px;
+}
+
+h3 {
+  color: dodgerblue;
+}
