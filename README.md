@@ -1,1 +1,3 @@
 Mobile web application that useing HTML javascript CSS bootstrap and PHP
+
+In the JavaScript code I provided, I've utilized the Google Maps API to create an interactive map that allows users to add markers, view different locations, and get directions. The script interacts with HTML elements, such as buttons and selection menus, to enhance user interaction by providing functionalities like adding and removing markers, and displaying routes between selected points. This integration of Google Maps into a web interface, supported by responsive Bootstrap layouts, ensures a seamless user experience across various devices.
